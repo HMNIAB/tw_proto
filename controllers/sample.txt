@@ -1,0 +1,20 @@
+<?php
+class FormController {
+    public function handleFormSubmission() {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            // Process form data
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+
+            // You can perform validation, sanitize input, etc.
+
+            // If everything is fine, you can send the data to the view
+            include 'views/formSuccess.php';
+        } else {
+            // If the form was not submitted via POST, show the form
+            include 'views/form.php';
+        }
+    }
+}
+?>
+

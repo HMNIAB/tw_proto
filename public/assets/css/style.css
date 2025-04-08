@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "Roboto";
+	src: url('/Roboto/static/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+.westernBanner {
+	display: block;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	*/
+	width: 50%;
+}
+
+.topnav {
+	background-color: black;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.topnav a {
+	font-family: "Roboto", sans-serif;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a.hover {
+	background-color: #5C6066;
+	color: white;
+}
+
+.topnav a.active {
+	background-color: #A7002A;
+	color: white;
+	border-radius: 5px;
+}
+
+h1, h2, h3, h4, p {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+.studentHeading, .employeeHeading {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+.studentForm, .employeeForm {
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+.studentForm table {
+	font-family: "Roboto", sans-serif;
+	width: auto;
+	border-spacing: 10px;
+	background-color: #A7002A; 
+	padding: 20px;
+	border-radius: 10px;
+	height: 400px;
+	margin: auto;
+}
+
+.employeeForm table {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	width: auto;
+	border-spacing: 10px;
+	background-color: #A7002A; 
+	padding: 20px;
+	border-radius: 10px;
+	height: auto;
+	margin: auto;
+}
+
+.employeeFormEmail table {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	width: auto;
+	border-spacing: 10px;
+	background-color: #A7002A; 
+	padding: 20px;
+	border-radius: 10px;
+	height: auto;
+	margin: auto;
+}
+
+.studentForm label, .employeeForm label, .employeeFormEmail label {
+	font-family: "Roboto", sans-serif;
+	display: inline-block;
+	width: auto;
+	text-align: center; /*changed from left*/
+	justify-content: center;
+	color: white;
+	/* vertical-align: middle; */
+}
+
+.studentForm select, .employeeForm select {
+	font-family: "Roboto", sans-serif;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+}
+.studentForm input[type=submit] {
+	padding: auto;
+	width: 100%;
+	justify-content: center;
+}
+
+.employeeForm input[type=submit] {
+	padding: auto;
+	width: 100%;
+	justify-content: center;
+}
+
+.employeeFormEmail input[type=submit] {
+	width: 100%;
+	justify-content: center;
+}
+
+.employeeFormDate {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.employeeFormDate input[type=date] {
+	padding: auto;
+	justify-content: right;
+}
+
+.studentForm input, .employeeForm input {
+	width: auto;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	margin-bottom: 10px;
+	color: black;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.studentForm td, .employeeForm td {
+	/*vertical-align: middle;*/
+	/*justify-content: center;*/
+}
+
+.studentForm tr, .employeeForm tr {
+	margin-bottom: 15px;
+}
+
+option {
+	text-align: center;
+}
+
+th {
+	color: white;
+}
+.madjack div {
+	display: flex;
+	justify-content: center;
+}
